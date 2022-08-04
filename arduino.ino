@@ -1,4 +1,4 @@
-// by \x6b\x69\x72\x61
+
 #include <Servo.h>
 Servo gripper;
 Servo wrist;
@@ -53,7 +53,7 @@ void loop() {
   if (computerText.length() == 0) {
     return;
   }
-  // 92-0-130
+  
   String command = getValue(computerText, ' ',0);
 
     if (command == "right" || command == "رايت" || command == "Right") {
